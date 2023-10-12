@@ -4,8 +4,13 @@
   "description": "Test tbDEX server, written by Adam with great haste!",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@tbdex/http-server": "^0.0.12"
+  }
 }
